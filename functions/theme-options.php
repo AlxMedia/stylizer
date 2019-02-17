@@ -10,6 +10,24 @@ Kirki::add_config( 'stylizer', array(
 	'option_type'   => 'theme_mod',
 ) );
 
+/*  Add Links
+/* ------------------------------------ */
+Kirki::add_section( 'morelink', array(
+	'title'       => esc_html__( 'AlxMedia', 'stylizer' ),
+	'type'        => 'link',
+	'button_text' => esc_html__( 'View More Themes', 'stylizer' ),
+	'button_url'  => 'http://alxmedia.se/themes/',
+	'priority'    => 13,
+) );
+Kirki::add_section( 'reviewlink', array(
+	'title'       => esc_html__( 'Like This Theme?', 'stylizer' ),
+	'panel'       => 'options',
+	'type'        => 'link',
+	'button_text' => esc_html__( 'Write a Review', 'stylizer' ),
+	'button_url'  => 'https://wordpress.org/support/theme/stylizer/reviews/?filter=5#new-post',
+	'priority'    => 1,
+) );
+
 /*  Add Panels
 /* ------------------------------------ */
 Kirki::add_panel( 'options', array(
