@@ -2,14 +2,14 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.0
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
 
 == Description ==
 
-Stylizer is a flexible blog theme with plenty of options and a unique look. This theme will handle text-only posts brilliantly - your blog posts will look good even though you have no images to show. It includes things such as unlimited accent colors, a sidebar to the right or no sidebar at all, any site width, a standard or list blog layout, a switch that can be enabled to change between day and night mode and much more. 
+Stylizer is a flexible blog theme with plenty of options and a unique look, standing out on all devices. This theme includes features such as unlimited accent colors, any site width, a standard or list blog layout, a switch that can be enabled to change between day and night mode and much more.
 
 == Installation ==
 
@@ -81,6 +81,9 @@ Right sidebar images
 6. https://stocksnap.io/photo/23H66MTGXA - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.2 - 2019-02-17 =
+* Updated theme description
 
 = 1.0.1 - 2019-02-17 =
 * Updated to Kirki 3.0.36
