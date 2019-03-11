@@ -20,7 +20,7 @@ Stylizer is a flexible blog theme with plenty of options and a unique look, stan
 
 == Documentation ==
 
-http://alxmedia.se/documentation/
+http://alx.media/documentation/
 
 == Copyright ==
 
