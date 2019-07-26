@@ -718,10 +718,6 @@ if ( ! function_exists( 'stylizer_plugins' ) ) {
 				array(
 					'name' => esc_html__( 'WP-PageNavi', 'stylizer' ),
 					'slug' => 'wp-pagenavi',
-				),
-				array(
-					'name' => esc_html__( 'Responsive Lightbox', 'stylizer' ),
-					'slug' => 'responsive-lightbox',
 				)
 			);	
 			tgmpa( $plugins );

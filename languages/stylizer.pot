@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Stylizer\n"
-"POT-Creation-Date: 2019-07-26 19:12+0200\n"
+"POT-Creation-Date: 2019-07-26 19:35+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -133,24 +133,20 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:719
+#: functions.php:707
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:723
+#: functions.php:711
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:727
+#: functions.php:715
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:731
+#: functions.php:719
 msgid "WP-PageNavi"
-msgstr ""
-
-#: functions.php:735
-msgid "Responsive Lightbox"
 msgstr ""
 
 #: functions/meta-boxes.php:21
