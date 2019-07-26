@@ -677,18 +677,6 @@ if ( ! function_exists( 'stylizer_html_js_class' ) ) {
 add_action( 'wp_head', 'stylizer_html_js_class', 1 );
 
 
-/*  Script for no-js / js class
-/* ------------------------------------ */
-if ( ! function_exists( 'stylizer_html_js_class' ) ) {
-
-	function stylizer_html_js_class () {
-		echo '<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>'. "\n";
-	}
-	
-}
-add_action( 'wp_head', 'stylizer_html_js_class', 1 );
-
-
 /*  Admin panel css
 /* ------------------------------------ */
 if ( ! function_exists( 'stylizer_admin_panel_css' ) ) {
