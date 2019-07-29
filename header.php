@@ -50,12 +50,12 @@
 					
 					<?php if ( has_nav_menu('mobile') ): ?>
 						<nav class="nav-container group" id="nav-mobile">
-							<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+							<div class="nav-toggle"><i class="fas fa-bars"></i></div>
 							<div class="nav-text"><!-- put your mobile menu text here --></div>
 							<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'mobile','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>				
 							
 							<?php if ( get_theme_mod( 'header-search', 'on' ) == 'on' ): ?>		
-								<div class="toggle-search"><i class="fa fa-search"></i></div>
+								<div class="toggle-search"><i class="fas fa-search"></i></div>
 								<div class="search-expand">
 									<div class="search-expand-inner">
 										<?php get_search_form(); ?>
@@ -69,12 +69,12 @@
 					<div id="header-sticky">
 						<?php if ( has_nav_menu('header') ): ?>
 							<nav class="nav-container group" id="nav-header">
-								<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+								<div class="nav-toggle"><i class="fas fa-bars"></i></div>
 								<div class="nav-text"><!-- put your mobile menu text here --></div>
 								<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'header','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>				
 								
 								<?php if ( get_theme_mod( 'header-search', 'on' ) == 'on' ): ?>
-									<div class="toggle-search"><i class="fa fa-search"></i></div>
+									<div class="toggle-search"><i class="fas fa-search"></i></div>
 									<div class="search-expand">
 										<div class="search-expand-inner">
 											<?php get_search_form(); ?>
@@ -90,12 +90,12 @@
 				
 				<div class="sidebar s2">
 					<?php if ( get_theme_mod('light-dark-switch','off') =='on' ): ?>
-						<a href="#" id="btn-mode" title="<?php esc_html_e('Switch Color','stylizer'); ?>"><i class="fa fa-toggle-off"></i></a>
+						<a href="#" id="btn-mode" title="<?php esc_html_e('Switch Color','stylizer'); ?>"><i class="fas fa-toggle-off"></i></a>
 					<?php endif; ?>
 					<?php if ( get_theme_mod('sidebar-home-btn','off') =='on' ): ?>
-						<a href="<?php echo esc_url( home_url('/') ); ?>" id="btn-sidebar-home" title="<?php echo esc_attr( get_bloginfo('name')); ?>"><i class="fa fa-home"></i></a>
+						<a href="<?php echo esc_url( home_url('/') ); ?>" id="btn-sidebar-home" title="<?php echo esc_attr( get_bloginfo('name')); ?>"><i class="fas fa-home"></i></a>
 					<?php endif; ?>
-					<div id="sidebar-top"><i class="fa fa-bookmark-o"></i></div>
+					<div id="sidebar-top"><i class="far fa-bookmark"></i></div>
 				</div>
 				<div class="clear"></div>
 				<div class="main-inner group" id="content">

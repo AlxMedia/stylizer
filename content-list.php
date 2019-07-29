@@ -7,9 +7,9 @@
 			<div class="post-details-thumb">
 				<a href="<?php the_permalink(); ?>">
 					<?php the_post_thumbnail('stylizer-small'); ?>
-					<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fa fa-play"></i></span>'; ?>
-					<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fa fa-volume-up"></i></span>'; ?>
-					<?php if ( is_sticky() ) echo'<span class="thumb-icon"><i class="fa fa-star"></i></span>'; ?>
+					<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-play"></i></span>'; ?>
+					<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-volume-up"></i></span>'; ?>
+					<?php if ( is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-star"></i></span>'; ?>
 				</a>
 			</div><!--/.post-details-thumb-->
 		<?php else: ?>
@@ -33,10 +33,10 @@
 		<?php endif; ?>
 		
 		<ul class="post-meta group">
-			<li class="post-author"><i class="fa fa-user"></i> <?php the_author_posts_link(); ?></li>
-			<li class="post-category"><i class="fa fa-folder"></i> <?php the_category(', '); ?></li>
+			<li class="post-author"><i class="fas fa-user"></i> <?php the_author_posts_link(); ?></li>
+			<li class="post-category"><i class="fas fa-folder"></i> <?php the_category(', '); ?></li>
 			<?php if ( comments_open() && ( get_theme_mod( 'comment-count','on' ) == 'on' ) ): ?>
-				<li class="post-comment"><i class="fa fa-comment"></i> <a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></li>
+				<li class="post-comment"><i class="fas fa-comment"></i> <a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></li>
 			<?php endif; ?>
 		</ul><!--/.post-meta-->
 		

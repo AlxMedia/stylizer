@@ -22,9 +22,9 @@
 				<h1 class="post-title"><?php the_title(); ?></h1>
 				
 				<ul class="post-meta group">
-					<li class="post-author"><i class="fa fa-user"></i> <?php the_author_posts_link(); ?></li>
-					<li class="post-category"><i class="fa fa-folder"></i> <?php the_category(', '); ?></li>
-					<li class="post-comment"><i class="fa fa-comment"></i> <a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></li>
+					<li class="post-author"><i class="fas fa-user"></i> <?php the_author_posts_link(); ?></li>
+					<li class="post-category"><i class="fas fa-folder"></i> <?php the_category(', '); ?></li>
+					<li class="post-comment"><i class="fas fa-comment"></i> <a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a></li>
 				</ul><!--/.post-meta-->
 				
 				<?php if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
