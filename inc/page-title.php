@@ -55,9 +55,9 @@
 		<?php elseif ( has_post_format('aside') ): ?>
 			<h1><i class="fas fa-pen"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Aside','stylizer'); ?></span></h1>
 		<?php elseif ( has_post_format('chat') ): ?>
-			<h1><i class="fas fa-comments-o"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Chat','stylizer'); ?></span></h1>
+			<h1><i class="fas fa-comments"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Chat','stylizer'); ?></span></h1>
 		<?php elseif ( has_post_format('gallery') ): ?>
-			<h1><i class="fas fa-picture-o"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Gallery','stylizer'); ?></span></h1>
+			<h1><i class="fas fa-image"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Gallery','stylizer'); ?></span></h1>
 		<?php elseif ( has_post_format('image') ): ?>
 			<h1><i class="fas fa-camera"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Image','stylizer'); ?></span></h1>
 		<?php elseif ( has_post_format('link') ): ?>
@@ -67,7 +67,7 @@
 		<?php elseif ( has_post_format('status') ): ?>
 			<h1><i class="fas fa-bullhorn"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Status','stylizer'); ?></span></h1>
 		<?php elseif ( has_post_format('video') ): ?>
-			<h1><i class="fas fa-video-camera"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Video','stylizer'); ?></span></h1>
+			<h1><i class="fas fa-video"></i><?php esc_html_e('Type:','stylizer'); ?> <span><?php esc_html_e('Video','stylizer'); ?></span></h1>
 	
 	<?php else: ?>
 		<h2><?php the_title(); ?></h2>
