@@ -81,15 +81,6 @@ Kirki::add_section( 'styling', array(
 /*  Add Fields
 /* ------------------------------------ */
 
-// General: Responsive Layout
-Kirki::add_field( 'stylizer_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'responsive',
-	'label'			=> esc_html__( 'Responsive Layout', 'stylizer' ),
-	'description'	=> esc_html__( 'Mobile and tablet optimizations (responsive.css)', 'stylizer' ),
-	'section'		=> 'general',
-	'default'		=> 'on',
-) );
 // General: Mobile Sidebar
 Kirki::add_field( 'stylizer_theme', array(
 	'type'			=> 'switch',
