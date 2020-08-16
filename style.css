@@ -544,8 +544,6 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .site-header { position: relative; z-index: 1; }
 .site-image { display: block; margin: 0 auto; max-height: 400px; }
 
-.header-outer { position: relative; }
-
 /*  header : search
 /* ------------------------------------ */
 .toggle-search { background: #eee; position: absolute; top: 0; right: 0; z-index: 3; border: 0; width: 60px; color: #333; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; padding: 17px 0 17px; margin: 0; display: block; }
@@ -560,6 +558,15 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; }
 
+#header-menu-header,
+#header-menu-mobile { position: relative; }
+
+@media only screen and (min-width: 720px) {
+	.mobile-menu #header-menu-mobile { display: none; }
+}
+@media only screen and (max-width: 719px) {
+	.mobile-menu #header-menu-header { display: none; } 
+}
 
 /* ------------------------------------------------------------------------- *
  *  Section: Navigation
@@ -751,7 +758,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #footer .nav-menu:not(.mobile) li.current-menu-item > span > a, 
 #footer .nav-menu:not(.mobile) li.current-menu-ancestor > span > a, 
 #footer .nav-menu:not(.mobile) li.current-post-parent > span > a { color: #333; }
-#footer .nav-menu:not(.mobile) button .svg-icon { fill: rgba(0,0,0,0.3); }
+#footer .nav-menu:not(.mobile) button .svg-icon { fill: rgba(0,0,0,0.2); }
 #footer .nav-menu:not(.mobile) button.active { background: rgba(0,0,0,0.1); }
 #footer .nav-menu:not(.mobile) ul ul a { transition: all 0.3s ease; }
 #footer .nav-menu:not(.mobile) ul ul > li:hover > span { background: none; }
