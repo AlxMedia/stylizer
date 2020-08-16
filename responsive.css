@@ -70,9 +70,10 @@
 	#nav-mobile.nav-container .nav-toggle { height: 62px; }
 	#nav-header.nav-container .nav-toggle i,
 	#nav-mobile.nav-container .nav-toggle i { padding: 17px 0; }
-	.toggle-search { left: 1px; right: auto; top: 0; bottom: auto; height: 62px; line-height: 62px; width: 60px; }
-	.search-expand { bottom: auto; right: 60px; left: 62px; top: 0; width: auto; z-index: 99; }
-	.search-expand-inner { padding: 13px; }
+	.toggle-search { background: transparent; padding-top: 14px; padding-bottom: 14px; right: auto; left: 0; top: 0; }
+	.toggle-search.active { padding-top: 14px; padding-bottom: 14px; }
+	.search-expand { bottom: auto; right: 70px; left: 58px; top: 0; width: auto; z-index: 99; }
+	.search-expand-inner { padding: 9px; }
 	#header .social-links { float: none; text-align: center; margin: 0 0 20px; }
 	
 	/* footer */
