@@ -730,6 +730,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #header .nav-menu.mobile { box-shadow: 0 1px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.04); position: relative; z-index: 3; border-bottom: 1px solid #f2f2f2; }
 
 #header .nav-menu:after { content:""; display: block; right: -62px; top: 0; position: absolute; border: solid; border-color: #e5e5e5 transparent; border-width: 62px 62px 0 0; }
+.boxed #header .nav-menu:after { display: none; }
 @media only screen and (max-width: 1150px) {
 	#header .nav-menu:after { display: none; }
 }

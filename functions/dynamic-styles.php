@@ -165,10 +165,9 @@ a,
 			if ( get_theme_mod('angled','on') != 'on' ) {
 				$styles .= '
 #header:after,
-#nav-header:after,
+#header .nav-menu:after,
 #btn-mode:after,
 #btn-sidebar-home:after { display: none; }
-#nav-header.nav-container { margin-right: 0; }
 				'."\n";
 			}
 			// left bar top background
