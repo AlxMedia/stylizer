@@ -42,7 +42,7 @@
 					<?php } ?>
 					
 					<?php if ( has_nav_menu('footer') ): ?>
-						<?php \AlxMedia\Nav::nav_menu(array('theme_location'=>'footer','menu_id' => 'nav-footer','fallback_cb'=> false)); ?>
+						<?php \Stylizer\Nav::nav_menu(array('theme_location'=>'footer','menu_id' => 'nav-footer','fallback_cb'=> false)); ?>
 					<?php endif; ?>
 					
 					<div id="footer-bottom">
