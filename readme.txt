@@ -87,6 +87,9 @@ Right sidebar images
 
 == Changelog ==
 
+= 1.1.9 - 2021-03-03 =
+* Removed double search trap, as it doesn't work when mobile menu is in use
+
 = 1.1.8 - 2021-03-03 =
 * Fixed: mobile menu tabbing will enter in the menu even when it's closed
 * Fixed: add styles to focus states of menu and search
