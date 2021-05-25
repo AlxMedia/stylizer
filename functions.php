@@ -89,8 +89,10 @@ add_action( 'after_setup_theme', 'stylizer_setup' );
 
 /*  Custom navigation
 /* ------------------------------------ */
-add_action( 'wp', function() {
+if ( ! class_exists( '\Stylizer\Nav' ) ) {
 	require_once 'functions/nav.php';
+}
+add_action( 'wp', function() {
 	$nav = new \Stylizer\Nav();
 	$nav->enqueue(
 		[

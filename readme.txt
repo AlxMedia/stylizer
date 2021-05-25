@@ -87,6 +87,9 @@ Right sidebar images
 
 == Changelog ==
 
+= 1.2.0 - 2021-05-25 =
+* Fixed compatibility issue with custom nav and various security plugins
+
 = 1.1.9 - 2021-03-03 =
 * Removed double search trap, as it doesn't work when mobile menu is in use
 
