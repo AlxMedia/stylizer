@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Stylizer\n"
-"POT-Creation-Date: 2021-03-03 13:42+0100\n"
+"POT-Creation-Date: 2021-05-25 13:44+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -77,75 +77,75 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#: functions.php:174
+#: functions.php:176
 msgid "Primary"
 msgstr ""
 
-#: functions.php:174
+#: functions.php:176
 msgid "Normal full width sidebar"
 msgstr ""
 
-#: functions.php:176 functions/theme-options.php:274
+#: functions.php:178 functions/theme-options.php:274
 msgid "Footer Ads"
 msgstr ""
 
-#: functions.php:176
+#: functions.php:178
 msgid "Footer ads area"
 msgstr ""
 
-#: functions.php:178
+#: functions.php:180
 msgid "Frontpage Top 1"
 msgstr ""
 
-#: functions.php:178 functions.php:179 functions.php:180 functions.php:181
+#: functions.php:180 functions.php:181 functions.php:182 functions.php:183
 msgid "Frontpage area"
 msgstr ""
 
-#: functions.php:179
+#: functions.php:181
 msgid "Frontpage Top 2"
 msgstr ""
 
-#: functions.php:180
+#: functions.php:182
 msgid "Frontpage Bottom 1"
 msgstr ""
 
-#: functions.php:181
+#: functions.php:183
 msgid "Frontpage Bottom 2"
 msgstr ""
 
-#: functions.php:183
+#: functions.php:185
 msgid "Footer 1"
 msgstr ""
 
-#: functions.php:183 functions.php:184 functions.php:185 functions.php:186
+#: functions.php:185 functions.php:186 functions.php:187 functions.php:188
 msgid "Widgetized footer"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:186
 msgid "Footer 2"
 msgstr ""
 
-#: functions.php:185
+#: functions.php:187
 msgid "Footer 3"
 msgstr ""
 
-#: functions.php:186
+#: functions.php:188
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:722
+#: functions.php:724
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:726
+#: functions.php:728
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:730
+#: functions.php:732
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:734
+#: functions.php:736
 msgid "WP-PageNavi"
 msgstr ""
 
@@ -791,7 +791,7 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:99
+#: header.php:97
 msgid "Switch Color"
 msgstr ""
 
