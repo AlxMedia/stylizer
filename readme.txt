@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Stylizer is a flexible blog theme with plenty of options and a unique look, standing out on all devices. This theme includes features such as unlimited accent colors, any site width, a standard or list blog layout, a switch that can be enabled to change between day and night mode and much more. Demo: http://demo.alx.media/x/?theme=Stylizer
+Stylizer is a flexible blog theme with plenty of options and a unique look, standing out on all devices. This theme includes features such as unlimited accent colors, any site width, a standard or list blog layout, a switch that can be enabled to change between day and night mode and much more. Demo: https://demo.agnarson.com/?theme=Stylizer
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Stylizer is a flexible blog theme with plenty of options and a unique look, stan
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
